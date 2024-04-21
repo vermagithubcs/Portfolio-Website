@@ -17,6 +17,7 @@
 }
 /* About Design */
 .about-design{
+  min-height: 110vh;
   width: 100%;
   position: relative;
   top: 2rem;
@@ -39,6 +40,10 @@
   position: relative;
   left: 42rem;
   bottom: 8rem;
+}
+.horizontal-line{
+  border-bottom: 2px solid #222;
+  width: 100%;
 }
 .main-content{
   height: 13rem;
