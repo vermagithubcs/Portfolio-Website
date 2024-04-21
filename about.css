@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,89.5,300..800;1,89.5,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  list-style: none;
+  font-family: "Playfair Display", serif;
+}
+:root {
+  --bg-color: #000000;
+  --second-bg-color: #161616;
+  --text-color: #fff;
+  --main-color: #7b4bb7;
+  --main-text-color: #002d5b;
+}
+/* About Design */
+.about-design{
+  width: 100%;
+  position: relative;
+  top: 2rem;
+  /* background-color: blue; */
+}
+.about-design h2{
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  font-size: 3rem;
+}
+.about-design p{
+  text-align: center;
+  margin-top: 15px;
+}
+.about-design .line{
+  width: 3px;
+  height: 18rem;
+  background-color: red;
+  rotate: 90deg;
+  position: relative;
+  left: 42rem;
+  bottom: 8rem;
+}
+.main-content{
+  height: 13rem;
+  width: 90%;
+  /* background-color: white; */
+  display: flex;
+  left: 5rem;
+  position: relative;
+  bottom: 10rem;
+}
+.main-content .photo {
+  height: 25rem;
+  width: 21rem;
+  background-color: #cf2e2e;
+  border-radius: 15px;
+  position: relative;
+  left: 9rem;
+  top: -5rem;
+}
+.main-content .photo img{
+  height: 23rem;
+  border-radius: 10px;
+  position: relative;
+  left: -1rem;
+  top: 1rem;
+  width: 21rem;
+}
+.main-content .main-para-01 h1{
+  font-family: "Playfair Display", serif;
+}
+.main-content .main-para-01 p{
+  position: relative;
+  top: 2rem;
+  line-height: 29px;
+}
+.main-content .main-para-02{
+  position: relative;
+  top: 5rem;
+  left: 3rem;
+}
+.main-content .main-para-01 h1{
+  position: relative;
+  left: 3rem;
+  font-size: 2.1rem;
+}
